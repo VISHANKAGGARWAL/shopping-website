@@ -1,0 +1,266 @@
+/*--------cart items-----------*/
+
+.cart-page {
+  margin: 80px auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.cart-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+th {
+  text-align: left;
+  padding: 5px;
+  color: rgb(208, 255, 0);
+  background: #ff523b;
+  font-weight: normal;
+}
+td {
+  padding: 10px 5px;
+}
+td input {
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+td a {
+  color: aqua;
+  font-size: 12px;
+}
+td img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+.total-price {
+  display: flex;
+  justify-content: flex-end;
+}
+.total-price table {
+  border-top: 3px solid #ff523b;
+  width: 100%;
+  max-width: 400px;
+}
+.td:last-child {
+  text-align: right;
+}
+.th:last-child {
+  text-align: right;
+}
+
+/* Nav */
+
+.nav-bar-container {
+  padding: 0 20px;
+  background: rgb(255, 255, 255);
+}
+.nav-bar {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.nav-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+.nav-menu {
+  display: flex;
+  height: 100%;
+}
+
+.nav-menu li {
+  padding: 0 2px;
+  list-style: none;
+  height: 100%;
+}
+
+.nav-menu li a {
+  color: rgba(0, 0, 0, 0.322);
+  height: 100%;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+  padding: 0 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-menu li a:hover {
+  color: rgb(0, 0, 0);
+}
+.nav-icons {
+  display: flex;
+  height: 100%;
+}
+.nav-icons li {
+  padding: 0 2px;
+  list-style: none;
+  height: 100%;
+}
+.nav-icons img {
+  height: 20px;
+  width: 20px;
+}
+.nav-icons li a {
+  color: rgba(0, 0, 0, 0.322);
+  height: 100%;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+  padding: 0 5px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-icons li a:hover {
+  color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 600px) {
+  .nav-menu {
+    display: none;
+  }
+}
+
+/* Nav End */
+/* Footer */
+
+footer {
+  background-color: #cf2728;
+  padding: 60px 10px;
+  position: relative;
+  margin-top: 20px;
+  border-top: 1px solid rgba(red, green, blue, alpha);
+}
+
+.footer {
+  background-color: forestgreen;
+  padding: 60px 10px;
+  position: relative;
+  margin-top: 20px;
+  border-top: 1px solid rgba(red, green, blue, alpha);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 85%;
+  margin: 10px auto;
+}
+
+.footer-logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #d6d6d6;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 20px 0px;
+}
+
+.footer-logo-container span {
+  color: white;
+  font-weight: 400;
+  margin: 10px;
+  font-size: 0.8rem;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social a {
+  margin: 0px 6px;
+  border-radius: 50%;
+  color: aliceblue;
+  background-color: beige;
+  border: 1px solid rgba(red, green, blue, alpha);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-socail a:hover {
+  background-color: coral;
+  color: black;
+  transition: all ease 0.3s;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-menu-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 30px;
+}
+
+.footer-menu-box strong {
+  color: aliceblue;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+}
+
+.footer-menu-box ul li a,
+.footer-menu-box ul li {
+  color: blanchedalmond;
+  font-size: 00.9rem;
+  margin: 5px 0px;
+  text-decoration: none;
+  list-style: none;
+}
+.footer-social img {
+  height: 20px;
+  width: 20px;
+  object-fit: cover;
+}
+
+.footer-menu-box ul li a:hover {
+  color: #d6d6d6;
+  transition: all ease 0.3s;
+  text-decoration: none;
+}
+
+.copyright {
+  padding: 15px;
+  color: #d6d6d6;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(red, green, blue, alpha);
+  font-size: 0.9rem;
+}
