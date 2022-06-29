@@ -204,7 +204,6 @@ var products = [
     [
       "Almira",
       "Rs. 10,000",
-      ,
       "../img/indergill12001-20220628-0099.jpg",
       "PATIOFY PREMIUM HANDMADE STYLISH WOODEN TEMPLE: Little Assembly is required to make up and put up this lovely handmade Wooden Temple for Home/Temple for Home Wall/Wall Mounted Temple for Home/ Pooja Mandir - Handcrafted Wooden Temple is a fantastic temple decor yet function mandir for people residing outside and has limited access to your religious needs",
     ],
@@ -481,7 +480,6 @@ var products = [
     [
       "Dining table",
       "Rs. 20,000",
-      ,
       "../img/indergill12001-20220628-0088.jpg",
       "MAGGI 2-Minute Masala Noodles is an instant noodles brand manufactured by Nestle",
     ],
@@ -846,11 +844,10 @@ var products = [
       "HAIER 1.6 TON",
       "Rs. 65000",
       "../img/Haier-HSU18C-CS3B-INV-Air-ConditionerWEs-581110156-i-1-1200Wx1200H-300Wx300H.jpeg",
-      "1.6 Ton 5 Star Split AC-PuriCool Pro
-      ",
+      "1.6 Ton 5 Star Split AC-PuriCool Pro",
     ],
     [
-      "HAIER 1.0 TON ",
+      "HAIER ",
       "Rs. 1500",
       "../img/imWDWages.jpeg",
       "Bajaj Frore 1200 mm Ceiling Fan (Brown)",
@@ -891,7 +888,6 @@ var products = [
       "images/g2.jpg",
       "Crispy and crunchy toasts made from the choicest of ingredients.",
     ],
-    
   ],
   //COOLER Products
   [
